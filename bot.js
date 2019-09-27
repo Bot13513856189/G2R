@@ -6,7 +6,7 @@ const math = require('math-expression-evaluator');   //WESO#0001
 const figlet = require('figlet');   //WESO#0001
 const fs = require('fs');  //WESO#0001
 const ms = require('ms');  //WESO#0001
-const prefix = '$'
+const prefix = '-'
 
 client.on('message', msg => {  //WESO#0001
     if (msg.content === 'ip') {  //WESO#0001
@@ -868,7 +868,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' -help',`$help`,`𝐆𝟐 𝐑𝐎𝐋𝐄𝐏𝐋𝐀𝐘`,' If You Want Help ? Type : $help ','جي تو للحياة الواقعية'];
+    var setGame = [' -help',`-help`,`𝐆𝟐 𝐑𝐎𝐋𝐄𝐏𝐋𝐀𝐘`,' If You Want Help ? Type : -help ','جي تو للحياة الواقعية'];
     var i = -1;
     var j = 0;
     setInterval(function (){
